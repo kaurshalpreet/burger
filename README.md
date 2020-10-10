@@ -38,7 +38,7 @@ npm i mysql <br>
 
 Sample Giphy showing the user input and result is shown below.
 
-![Sample Giphy](./screenshots/sample1.png)
+![Sample Giphy](./screenshots/Eat-Da-Burger.gif)
 
 ---
 
