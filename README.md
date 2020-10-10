@@ -9,7 +9,7 @@ Eat-Da-Burger is a burger logger app created with MySql, Node, Express and Handl
 
 [The Link to My Github Repository](https://github.com/kaurshalpreet/burger)
 
-![Repository Screenshot](/screenshots/repo.png)
+![Repository Screenshot](./screenshots/repo.png)
 
 ---
 
@@ -38,7 +38,7 @@ npm i mysql <br>
 
 Sample Giphy showing the user input and result is shown below.
 
-![Sample Giphy](/screenshots/sample1.png)
+![Sample Giphy](./screenshots/sample1.png)
 
 ---
 
