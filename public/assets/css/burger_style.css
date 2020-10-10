@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    background: 2px red solid;
+}
+
+#leftCol{
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+#rightCol{
+    margin-top: 200px;
+}
+
+#enterBurger{
+    text-align: center;
+}
+
+#create-form {
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.devourBtn {
+    background-color: maroon;
+    color: white;
+    border-radius: 7px;
+}
+

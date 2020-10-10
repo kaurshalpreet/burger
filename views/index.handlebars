@@ -1,0 +1,45 @@
+{{!-- Set up this file to have the template That Handlebars can render onto --}}
+{{!-- Create a button in this file That will submit the user input into the database --}}
+
+
+ <div class="container">
+        <div class="row">
+            <div id="leftCol" class="col">
+                <h3 style="font-family: 'Chilanka', cursive;"> To Be Devoured </h3>
+                <ul class="list-group list-group-flush" style="font-family: 'Chilanka', cursive;">
+                    {{#each burgers}}
+                        {{#unless devoured}}
+                            {{> burger-block devoured=0}}
+                        {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+
+            <!-- 2nd column -->
+            
+            <div id="middleCol" class="col-5">
+                <img src="/assets/img/burger.png" alt="Burger Image">
+                 <form id="enterBurger">
+                   <label for="ca" style="font-family: 'Chilanka', cursive;">Enter Your Burger</label>
+                   <input class="form-control" id="ca" name="name" rows="1" style="font-family: 'Chilanka', cursive;"></input>
+                   <button id="create-form" class="create-form" type="submit" class="btn btn-primary" style="font-family: 'Chilanka', cursive;">Submit</button>
+                 </form>
+               </div>
+
+            <!-- 3rd column -->
+            <div id="rightCol" class="col">
+                <h3 style="font-family: 'Chilanka', cursive;"> Devoured </h3>
+                <ul style="font-family: 'Chilanka', cursive;">
+                  {{#each burgers}}
+                      {{#if devoured}}
+                           <li>{{burger_name}}</li> 
+                     {{/if}}
+                 {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
