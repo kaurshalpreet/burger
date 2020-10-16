@@ -35,6 +35,8 @@ npm i mysql <br>
 
  Eat-Da-Burger is a restaurant app that lets user input the names of the burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page - waiting to be devoured. Each Burger on the left side in the waiting area also has a "Devour it!" button. When the user clicks on it, the burger will move to the right side of the page under "Devoured" section. The app will store every burger in database, whether devoured or not. <br>
 
+ [The link to the deployed app to Heroku](https://evening-chamber-99233.herokuapp.com)
+
 
 Sample Giphy showing the user input and result is shown below.
 
